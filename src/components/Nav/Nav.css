@@ -1,0 +1,46 @@
+.LIST{
+    padding: 0;
+    margin: 0;
+    background-color:#333 ;
+    height: 80vh;
+}
+.UL > * {
+    width: 100%;
+}
+.ul_nav{
+    list-style:none;
+    padding: 0;
+    margin:0;
+    background-color: #333;
+}
+.ul_nav li {
+    text-align: center;
+}
+.ul_nav li:hover .LI{
+    color: purple;
+}
+.UL button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: gray ;
+    font-size: 25px;
+    background-color: #333;
+   
+}
+.ul_nav button:hover{
+    background-color: black;
+    color: white;
+}
+@media(max-width:700px){
+    .LI{
+        display: none;
+    }
+   .ul_nav li.UL button{
+        font-size: 24px;
+    }
+  .LIST{
+      height: 140vh;
+  }
+}

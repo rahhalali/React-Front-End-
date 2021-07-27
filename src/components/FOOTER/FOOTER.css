@@ -1,0 +1,111 @@
+th, td {
+    border: 1px solid black;
+
+ }
+ table{
+     width: 100%;
+ }
+ td.uni{
+     width: 10%;
+     background-color: limegreen;
+     border-radius: 12px;
+ }
+ td.cc{
+     text-align: center;
+     background-color: lightblue;
+     border-radius: 12px;
+ }
+ .NAV_Inner label{
+     display: block;
+     width: 100%;
+     padding: 1%;
+
+ }
+ .NAV_Inner label span{
+    display: inline-block;
+         width: 15%;
+         font-size: 25px;
+         font-weight: bold;
+         border-radius: 12px;
+         background-color: lightblue;
+         padding: 10px;
+         margin-right: 2%;
+ }
+ .NAV_Inner label input{
+     font-size: 20px;
+     padding: 1%;
+     border: 0;
+     outline: 0;
+     background-color: gray;
+     color: white;
+     border-radius: 12px;
+ }
+ .SAVE{
+     text-align: center;
+ }
+ .NAV_Inner button.toggle{
+     width: 100px;
+     margin-right: 2%;
+     margin-left: 5%;
+     padding: 10px;
+     font-size: 25px;
+     border-radius: 64px;
+     border: 0;
+     background-color: lightblue;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ .NAV_Inner button.SaVe{
+    width: 100px;
+    margin-right: 2%;
+    margin-left: 12%;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 64px;
+    border: 0;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ @media (max-width:700px) {
+     table{
+         width: 70%;
+     }
+     td{
+        display: block;
+    }
+    td.uni{
+        border: 0;
+        font-size: 25px;
+        background-color: lightblue;
+        display: block;
+        width: 98%;
+        text-align: center;
+        padding: 10px 0 10px 10px;
+    }
+    td.cc{
+      width: 400px;
+      padding: 6px 0 6px 6px ;
+      background-color: limegreen;
+    }
+    .SAVE{
+        margin-top: 1%;
+        text-align: center;
+    }
+    .NAV_Inner label span{
+        width: 90%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+    }
+    .NAV_Inner label input{
+        width:90%;
+        padding: 10px;
+        margin-left: 1%;
+    }
+    .NAV_Inner button.toggle{
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+ }

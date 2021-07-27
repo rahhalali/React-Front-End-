@@ -1,0 +1,133 @@
+.login {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 14.5%;
+  overflow-y: hidden;
+  border: 1px solid rgb(247, 224, 224);
+  height: 50vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 0.1px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.login_image,
+.Form,
+.image_img {
+  width: 50%;
+  text-align: center;
+}
+.login_image {
+  position: relative;
+}
+.Form {
+  position: relative;
+}
+.Form h2 {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 5%;
+}
+.Form h2 span.Form_span {
+  color: white;
+}
+.Form form button {
+  width: 50%;
+  padding: 10px 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: 1s;
+
+  border-radius: 12px;
+}
+.Form form button:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.Form form input:focus {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  outline: 0;
+}
+.Form form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Form form input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+.image_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_image img {
+  width: 100%;
+}
+.Form form input {
+  width: 90%;
+  margin-bottom: 7%;
+  padding: 10px;
+  margin-top: 1%;
+  background: transparent;
+}
+@media (max-width: 700px) {
+  .login {
+    display: block;
+    width: 90%;
+    height: 90vh;
+    overflow: hidden;
+    border: 1px solid rgb(247, 224, 224);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  .login_image,
+  .Form {
+    width: 100%;
+  }
+  .login_image {
+    position: none;
+  }
+  .Form {
+    position: none;
+  }
+  .image_img {
+    position: relative;
+    transform: translate(-50%, 20%);
+  }
+
+  .Form h2 {
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 5%;
+  }
+  .Form form button {
+    background: transparent;
+    cursor: pointer;
+    font-size: 1em;
+    width: 20%;
+  }
+  .Form form button:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  .Form form input:focus {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    outline: 0;
+  }
+  .Form form {
+    position: none;
+    transform: translate(-50%, 50%);
+  }
+}

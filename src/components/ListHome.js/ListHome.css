@@ -1,0 +1,93 @@
+.list-home-page {
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+
+.list-home-page li {
+  list-style: none;
+}
+.pagination {
+  height: auto;
+}
+nav {
+  margin-left: 1%;
+  position: fixed;
+  overflow: hidden;
+  width: 50%;
+  top: 90%;
+}
+nav ul li a {
+  display: inline-block;
+  color: blue;
+  font-weight: bold;
+  width: 40px;
+  padding: 10px;
+}
+nav ul li.pagination:not(:last-child) {
+  border: 1px solid red;
+}
+nav ul li {
+  width: 60px;
+  text-align: center;
+  border-radius: 16px 0 16px 0;
+  background-color: rgb(150, 184, 185);
+}
+nav ul.pagination {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-item {
+  border: 1px solid gray;
+  cursor: pointer;
+  list-style: none;
+}
+.list-home-page a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  font-weight: bold;
+  border-radius: 64px;
+  color: black;
+  background-color: lightblue;
+  border: none;
+  width: 90px;
+  font-size: 16px; 
+} 
+.list-home-page li Span{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 1%;
+}
+.list-home-page li:nth-child(even){
+  background-color: lightblue;
+}
+.list-home-page li:nth-child(odd){
+  background-color: lightgreen;
+}
+.list-home-page button.list-btn{
+  border: 1px solid blue;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1%;
+  width: 90px;
+  color: rgb(49, 41, 41);
+  font-weight: bold;
+  border-radius: 64px;
+  background-color: red;
+  cursor: pointer;
+}
+@media (max-width:700px) {
+    nav{
+     position: sticky;
+     
+    
+    }
+    
+}

@@ -1,0 +1,65 @@
+.about {
+  width: 80%;
+  margin: 1% auto;
+}
+/* ----------------------------------header--------------------------------------------- */
+header {
+  width: 90%;
+  margin: 2% auto;
+  border-bottom: 1px solid rgb(235, 224, 224);
+}
+
+.about_header_inner {
+  margin: 2% 0;
+}
+header h1 {
+  margin: 2% 0 0.5% 0;
+  font-size: 50px;
+  line-height: 1.8em;
+}
+header h1::first-letter {
+  text-transform: uppercase;
+}
+header h1,
+span.about_Date {
+  margin-left: 1%;
+}
+header span.Date {
+  color: gray;
+  margin-bottom: 2%;
+}
+/* -----------------------------------main------------------------------------------- */
+main {
+  width: 90%;
+  margin: 4% auto 0 auto;
+  border-top: 1px solid rgb(235, 224, 224);
+}
+main .about_main_article,
+.about_main_image {
+  width: 70%;
+  margin: 0 auto;
+}
+main .about_main_article {
+  margin: 2% auto;
+}
+main h2 {
+  font-size: 30px;
+}
+main .about_main_image {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+main .about_main_image_1 {
+  height: 100%;
+  width: 100%;
+}
+/* -----------------------------------desc atricle-------------------------------------- */
+.about_all_article {
+  width: 90%;
+  margin: 0 auto;
+  color: red;
+  line-height: 1.8em;
+  font-size: 25px;
+}

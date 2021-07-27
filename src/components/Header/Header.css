@@ -1,0 +1,19 @@
+.Header_Header {
+  font-family: monospace;
+  background-color: indigo !important;
+  font-size: 30px;
+  padding-right: 1%;
+  display: flex;
+  align-items: center;
+  border-radius: 0 16px 0 0;
+}
+
+.Btn {
+  font-size: 30px;
+  transform: scale(x-large);
+  cursor: pointer;
+  color: white;
+}
+.Header_span {
+  color: white;
+}
